@@ -7,7 +7,7 @@
   if(isset($_SESSION['ss_mb_id'])){
     $mb_id = $_SESSION['ss_mb_id'];
     //회원정보를 조회하는 sql쿼리문
-    $sql = "select * from member where mb_id = '$mb_id'"; //id가 일치하는 자료 조회
+    $sql = "select * from tripdog_member where mb_id = '$mb_id'"; //id가 일치하는 자료 조회
     $result = mysql_query($conn, $sql);
     $mb = mysqli_fetch_assoc($result);
     mysqli_close($conn);
@@ -281,12 +281,6 @@
           feedback.filter('.invalid-feedback').show();
         }
       }
-
-      // 아이디 유효성 검사 (6-20자 영문, 숫자)
-      // $('#mb_id').on('input', function() {
-      //   const idRegex = /^[a-zA-Z0-9]{6,20}$/;
-      //   validateField($(this), idRegex);
-      // });
       // 아이디 중복확인
       $('#id_check').click(function () {
         const mb_id = $('#mb_id').val().trim();

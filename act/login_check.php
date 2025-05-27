@@ -11,7 +11,7 @@ if(!$mb_id || !$mb_password) {
 }
 
 // db에서 아이디를 조회하여 일치하는지 확인하고 로그인 성공하게끔 한다.
-$sql = "SELECT * FROM member WHERE mb_id = '$mb_id'";
+$sql = "SELECT * FROM tripdog_member WHERE mb_id = '$mb_id'";
 $result = mysqli_query($conn, $sql); // 조회한 결과를 변수에 저장
 $mb = mysqli_fetch_assoc($result);
 

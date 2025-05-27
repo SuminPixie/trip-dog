@@ -3,7 +3,7 @@
   $mysql_host='localhost'; //호스트명
   $mysql_user='root'; //사용자명
   $mysql_password='1234'; //패스워드
-  $mysql_db='tripdog'; //데이터베이스명
+  $mysql_db='pixiesite'; //데이터베이스명
   
   //데이터베이스에 연결
   $conn = mysqli_connect($mysql_host, $mysql_user, $mysql_password, $mysql_db);

@@ -140,7 +140,7 @@
       <div class="swiper mySwiper2">
         <div class="swiper-wrapper">
           <?php
-          $sql = "SELECT * FROM travel_list ORDER BY rating DESC LIMIT 10";
+          $sql = "SELECT * FROM tripdog_travel ORDER BY rating DESC LIMIT 10";
           $result = mysqli_query($conn, $sql);
 
           while ($row = mysqli_fetch_assoc($result)) :
@@ -185,7 +185,7 @@
       <div class="container">
         <div class="row m-0">
           <?php
-          $sql = "SELECT * FROM mate ORDER BY departure_date ASC";
+          $sql = "SELECT * FROM tripdog_mate ORDER BY departure_date ASC";
           $result = mysqli_query($conn, $sql);
 
           while ($row = mysqli_fetch_assoc($result)) :
@@ -246,7 +246,7 @@
         <div class="inner">
           <ul class="swiper-wrapper slide_list">
             <?php
-            $sql = "SELECT * FROM theme ORDER BY id ASC LIMIT 10";
+            $sql = "SELECT * FROM tripdog_theme ORDER BY id ASC LIMIT 10";
             $result = mysqli_query($conn, $sql);
             $rank = 1;
 
@@ -299,7 +299,7 @@
       </div>
       <div>
         <?php
-        $sql = "SELECT * FROM review ORDER BY good DESC, id ASC LIMIT 3";
+        $sql = "SELECT * FROM tripdog_review ORDER BY good DESC, id ASC LIMIT 3";
         $result = mysqli_query($conn, $sql);
 
         while ($row = mysqli_fetch_assoc($result)) :
@@ -340,7 +340,7 @@
       <div class="swiper mySwiper2">
         <div class="swiper-wrapper">
           <?php
-          $sql = "SELECT * FROM travel_list ORDER BY reservation_count DESC LIMIT 10";
+          $sql = "SELECT * FROM tripdog_travel ORDER BY reservation_count DESC LIMIT 10";
           $result = mysqli_query($conn, $sql);
 
           while ($row = mysqli_fetch_assoc($result)) :
@@ -392,7 +392,7 @@
           <?php
           $types = ['애견카페', '강아지공원', '애견숙소'];
           foreach ($types as $type) {
-            $sql = "SELECT * FROM place WHERE type = '$type' LIMIT 4";
+            $sql = "SELECT * FROM tripdog_place WHERE type = '$type' LIMIT 4";
             $result = mysqli_query($conn, $sql);
             while ($row = mysqli_fetch_assoc($result)) :
           ?>

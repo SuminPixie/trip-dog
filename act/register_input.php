@@ -32,7 +32,7 @@
 
 
   //db에 데이터 입력하기
-  $sql = "INSERT INTO member (mb_id, mb_password, mb_name, mb_level, mb_tel, mb_email, mb_hobby, mb_job, mb_datetime) VALUES ('$mb_id', '$mb_password_hash', '$mb_name', 1, '$mb_tel', '$mb_email', '$mb_hobby', '$mb_job', '$mb_datetime')";
+  $sql = "INSERT INTO tripdog_member (mb_id, mb_password, mb_name, mb_level, mb_tel, mb_email, mb_hobby, mb_job, mb_datetime) VALUES ('$mb_id', '$mb_password_hash', '$mb_name', 1, '$mb_tel', '$mb_email', '$mb_hobby', '$mb_job', '$mb_datetime')";
 
   // 쿼리 실행 및 오류 확인
   if (mysqli_query($conn, $sql)) {

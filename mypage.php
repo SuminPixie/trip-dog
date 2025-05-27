@@ -246,6 +246,14 @@
         <a href="javascript:void(0);" class="fw-bold d-block mt-4" style="font-size:18px; width:100px;" title="공지사항">공지사항</a>
       </div>
     </div>
+    <?php if (isset($_SESSION['ss_mb_name'])): ?>
+      <div class="content" style="border-top: 1px solid #f1f3f5; border-bottom:none;">
+        <div class="pt-4 pb-3">
+          <a href="./act/mypage_logout.php" class="text-muted" style="text-decoration: none;">로그아웃</a>
+        </div>
+      </div>
+    <?php endif; ?>
+
 
 
   </main>
