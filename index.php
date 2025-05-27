@@ -15,7 +15,7 @@
   // 세션 시작
   // session_start();
 
-  // 사용자가 로그인한 경우, mb_name을 세션에서 가져온다.
+  // 사용자가 로그인한 경우, mb_name을 세션에서 가져옴.
   if (isset($_SESSION['ss_mb_name'])) {
     $mb_name = $_SESSION['ss_mb_name'];
   } else {
