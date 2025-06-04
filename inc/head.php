@@ -1,3 +1,16 @@
+<!-- 기본 Favicon -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<!-- Apple -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<!-- Android -->
+<link rel="icon" sizes="192x192" href="/android-chrome-192x192.png">
+<link rel="icon" sizes="512x512" href="/android-chrome-512x512.png">
+<!-- Web App Manifest -->
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#ffffff">
+
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <!-- Bootstrap Bundle JS -->
