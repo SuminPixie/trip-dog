@@ -1,14 +1,14 @@
 <!-- 기본 Favicon -->
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="/trip-dog/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/trip-dog/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/trip-dog/favicon-16x16.png">
 <!-- Apple -->
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/trip-dog/apple-touch-icon.png">
 <!-- Android -->
-<link rel="icon" sizes="192x192" href="/android-chrome-192x192.png">
-<link rel="icon" sizes="512x512" href="/android-chrome-512x512.png">
+<link rel="icon" sizes="192x192" href="/trip-dog/android-chrome-192x192.png">
+<link rel="icon" sizes="512x512" href="/trip-dog/android-chrome-512x512.png">
 <!-- Web App Manifest -->
-<link rel="manifest" href="/site.webmanifest">
+<link rel="manifest" href="/trip-dog/site.webmanifest">
 <meta name="theme-color" content="#ffffff">
 
 <!-- Bootstrap CSS -->
