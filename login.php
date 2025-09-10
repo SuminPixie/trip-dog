@@ -36,7 +36,11 @@
     #easy_login{
       margin-bottom: 100px;
     }
-
+    @media (min-width: 768px) {
+      #login_box{
+        padding: 50px 15%;
+      }
+    }
   </style>
 </head>
 <body>

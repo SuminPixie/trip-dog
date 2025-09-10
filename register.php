@@ -41,32 +41,6 @@
       padding-top:60px;
       padding-bottom: 80px;
     }
-    #login_box{
-      padding: 50px 6%;
-    }
-
-    .logo img{
-      width: 160px;
-    }
-    .login_large_txt{
-      font-size: 20px;
-      font-weight: bold;
-    }
-    input{
-      height: 50px;
-    }
-    .invalid-feedback{
-      font-size: 0.9rem;
-    }
-
-    #login{
-      background: #F2055C;
-      height: 50px;
-      color: white;
-    }
-    #easy_login{
-      margin-bottom: 100px;
-    }
 
     /* 회원가입 페이지 서식 */
     #box{
@@ -101,6 +75,14 @@
     }
 
 
+  @media (min-width: 768px) {
+    #box{
+      padding: 0 15%;
+    }
+    #btn_bottom{
+      padding: 10px 15%;
+    }
+  }
 
 
 

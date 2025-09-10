@@ -49,10 +49,14 @@
     /* 광고배너 */
     .ad{
       border-radius: 10px;
-      height: 100px;
+      height: 130px;
       overflow: hidden;
       display: flex;
       align-items: center;
+    }
+    .ad picture{
+      width: 100%;
+      height: 100%;
     }
     .ad img{
       width: 100%;
@@ -79,6 +83,14 @@
       margin-left:20px;
     }
 
+
+
+
+    @media (min-width: 768px) {
+      .content{
+        padding: 0 15% 20px 15%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -89,10 +101,6 @@
     <div class="content">
       <div>
         <h2 class="fw-bold fs-3 pt-5 pb-3">마이페이지</h2>
-        <?php
-        session_start();
-        ?>
-
         <?php if (isset($_SESSION['ss_mb_name'])): ?>
           <?php $mb_name = $_SESSION['ss_mb_name']; ?>
           <div class="fw-bold fs-5 d-flex justify-content-between" title="마이페이지">
@@ -148,17 +156,26 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="ad">
-                <img src="./images/ad_1.jpeg" alt="광고배너">
+                <picture>
+                  <source srcset="./images/ad_1_pc.jpeg" media="(min-width: 768px)">
+                  <img src="./images/ad_1.jpeg" alt="광고배너">
+                </picture>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="ad">
-                <img src="./images/ad_2.jpeg" alt="광고배너">
+                <picture>
+                  <source srcset="./images/ad_2_pc.jpeg" media="(min-width: 768px)">
+                  <img src="./images/ad_2.jpeg" alt="광고배너">
+                </picture>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="ad">
-                <img src="./images/ad_3.jpeg" alt="광고배너">
+                <picture>
+                  <source srcset="./images/ad_3_pc.jpeg" media="(min-width: 768px)">
+                  <img src="./images/ad_3.jpeg" alt="광고배너">
+                </picture>
               </div>
             </div>
           </div>

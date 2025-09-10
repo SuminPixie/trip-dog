@@ -30,15 +30,15 @@ $(document).ready(function () {
     breakpoints: {
       376: {
         slidesPerView: 2.3,
-        spaceBetween: 30,
+        spaceBetween: 15,
       },
       768: {
         slidesPerView: 3.3,
-        spaceBetween: 30,
+        spaceBetween: 15,
       },
       1024: {
         slidesPerView: 4.3,
-        spaceBetween: 50,
+        spaceBetween: 15,
       },
     },
   });

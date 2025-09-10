@@ -8,6 +8,7 @@
   <?php include "./inc/head.php"; ?>
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/responsive.css">
   <script defer src="./script/main.js"></script>
 </head>
 <body>
@@ -215,17 +216,26 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="ad">
-              <img src="./images/ad_1.jpeg" alt="광고배너">
+              <picture>
+                <source srcset="./images/ad_1_pc.jpeg" media="(min-width: 768px)">
+                <img src="./images/ad_1.jpeg" alt="광고배너">
+              </picture>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="ad">
-              <img src="./images/ad_2.jpeg" alt="광고배너">
+              <picture>
+                <source srcset="./images/ad_2_pc.jpeg" media="(min-width: 768px)">
+                <img src="./images/ad_2.jpeg" alt="광고배너">
+              </picture>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="ad">
-              <img src="./images/ad_3.jpeg" alt="광고배너">
+              <picture>
+                <source srcset="./images/ad_3_pc.jpeg" media="(min-width: 768px)">
+                <img src="./images/ad_3.jpeg" alt="광고배너">
+              </picture>
             </div>
           </div>
         </div>
